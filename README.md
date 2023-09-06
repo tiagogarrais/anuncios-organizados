@@ -26,6 +26,10 @@ Agora preencha essas informações com os dados coletados nas etapas anteriores
 - EMAIL_FROM= seu-email@gmail.com
 - MONGODB_URI= "String de conexão já com a senha"
 
+Adicionando as variáveis de ambiente na Vercel
+- No site da Vercel entre nas opções do seu projeto e procure por "Enviroment Variables"
+- Adicione todas essas informações que foram coletadas
+
 
 
 
