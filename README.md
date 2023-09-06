@@ -31,6 +31,9 @@ Adicionando as variáveis de ambiente na Vercel
 - Adicione todas essas informações que foram coletadas
 
 
+Pronto, seu site com autenticação via e-mail já está funcionando adequadamente!
+
+
 
 
 # Aplicativo Web com Autenticação por E-mail e Magic Links
