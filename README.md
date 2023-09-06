@@ -1,3 +1,13 @@
+Criar um e-mail para o seu site (Eu sempre uso o GMAIL)
+Criar uma senha para este e-mail (guardar essa informação)
+Ir nas configurações do e-mail e ativar o IMAP
+Ir nas configurações do e-mail e ativar a verificação em duas etapas (esse passo é necessário para gerar senha de APP)
+Ir nas configurações do e-mail e ativar uma senha de APP (guardar essa informação)
+Ir na vercel.com e adicionar um novo projeto usando seu repositório no Github
+Com o projeto publicado guardar a informação do endereço (link) do seu site na vercel.
+
+
+
 # Aplicativo Web com Autenticação por E-mail e Magic Links
 
 Este é um template de projeto para criação de aplicativos web que oferece autenticação segura por e-mail, utilizando magic links. É baseado em tecnologias populares, como Node.js, Next.js, React, NextAuth.js e Nodemailer, e foi projetado para simplificar o processo de início de projetos.
