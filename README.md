@@ -1,4 +1,5 @@
 E-mail
+
 - Criar um e-mail para o seu site (Eu sempre uso o GMAIL)
 - Criar uma senha para este e-mail (guardar essa informação)
 - Ir nas configurações do e-mail e ativar o IMAP
@@ -6,10 +7,12 @@ E-mail
 - Ir nas configurações do e-mail e ativar uma senha de APP (guardar essa informação)
 
 Vercel
+
 - Ir na vercel.com e adicionar um novo projeto usando seu repositório no Github
 - Com o projeto publicado guardar a informação do endereço (link) do seu site na vercel.
 
 mongodb.com
+
 - Ir no site mongodb.com, criar uma conta (sugiro o tipo M0, região São Paulo)
 - Ainda no mongodb criar um usuário e senha
 - Adicionar o IP público 0.0.0.0/0 à listas de IPs que podem acessar os dados
@@ -17,6 +20,7 @@ mongodb.com
 - Substitua a informação <password> na string de conexão pela senha criada anteriormente e guarde a string com a senha
 
 Agora preencha essas informações com os dados coletados nas etapas anteriores
+
 - NEXTAUTH_URL= https://link-do-seu-site.vercel.app
 - NEXTAUTH_SECRET= "Aqui você gera uma senha segura, sugiro um hash com muitos caracteres"
 - EMAIL_SERVER_HOST= smtp.gmail.com
@@ -27,14 +31,11 @@ Agora preencha essas informações com os dados coletados nas etapas anteriores
 - MONGODB_URI= "String de conexão já com a senha"
 
 Adicionando as variáveis de ambiente na Vercel
+
 - No site da Vercel entre nas opções do seu projeto e procure por "Enviroment Variables"
 - Adicione todas essas informações que foram coletadas
 
-
 Pronto, seu site com autenticação via e-mail já está funcionando adequadamente!
-
-
-
 
 # Aplicativo Web com Autenticação por E-mail e Magic Links
 
