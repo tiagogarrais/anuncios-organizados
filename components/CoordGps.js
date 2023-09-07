@@ -17,12 +17,18 @@ const CoordGps = () => {
     ) : coords ? (
         
 <div>
+<form>
+<label>Título: 
+<input type="text"/></label><br/>
     latitude: {coords.latitude}<br/>
     longitude: {coords.longitude}<br/>
     altitude: {coords.altitude}<br/>
     heading: {coords.heading}<br/>
     velocidade: {coords.speed}<br/>
-    <a href={`https://maps.google.com/?q=${coords.latitude},${coords.longitude}`} target="_blank">Google Maps</a>
+    <button><a href={`https://maps.google.com/?q=${coords.latitude},${coords.longitude}`} target="_blank">Google Maps</a></button><br/>
+    <button>Enviar anúncio</button>
+</form>
+  
 </div>
                
     ) : (
