@@ -58,13 +58,12 @@ Para começar, você precisará das seguintes tecnologias:
 
 ## Como Usar
 
-1. Clone este repositório: `git clone https://github.com/tiagogarrais/base-para-aplicativo-web`.
-2. Copie o arquivo .env.example e o renomeie para .env.
-3. Preencha as informações necessárias no arquivo .env.
-4. Execute `npm install` para instalar as dependências.
-5. Execute `npm run dev` para iniciar o servidor de desenvolvimento.
-6. Personalize a interface do usuário e adicione recursos conforme necessário.
-7. Implemente seu aplicativo e comece a usá-lo.
+1. Copie o arquivo .env.example e o renomeie para .env.
+2. Preencha as informações necessárias no arquivo .env.
+3. Execute `npm install` para instalar as dependências.
+4. Execute `npm run dev` para iniciar o servidor de desenvolvimento.
+5. Personalize a interface do usuário e adicione recursos conforme necessário.
+6. Implemente seu aplicativo e comece a usá-lo.
 
 ## Contribuições
 
