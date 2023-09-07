@@ -1,6 +1,6 @@
 import { useSession, signIn, signOut } from "next-auth/react"
 import Link from 'next/link'
-import GpsForm from "../components/GpsForm"
+import CoordGps from "../components/CoordGps"
 
 
 export default function AcessoComLogin() {
@@ -10,7 +10,7 @@ export default function AcessoComLogin() {
       <>
         Bem vindo(a) {session.user.email} <br />
         <button onClick={() => signOut()}>Desconectar</button>
-        <GpsForm/>
+        <CoordGps/>
         <p><Link href='/'>Voltar para a página inicial</Link></p>
       </>
     )
