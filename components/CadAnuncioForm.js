@@ -32,9 +32,31 @@ const CoordGps = () => {
             <input type="file" />
           </label>
           <br />
-          <button>Enviar anúncio</button>
+          <label>
+            <input type="checkbox" />
+            Casa para venda
+          </label>
           <br />
+          <label>
+            <input type="checkbox" />
+            Casa para aluguel
+          </label>
+          <br />
+          <label>
+            <input type="checkbox" />
+            Terreno para venda
+          </label>
+          <br />
+          <label>
+            <input type="checkbox" />
+            Terreno para aluguel
+          </label>
+
+          <h3>
+            Adicionalmente estamos coletando os seguintes dados sobre este item:
+          </h3>
           <div>
+            <h4>Localização</h4>
             latitude: {coords.latitude}
             <br />
             longitude: {coords.longitude}
@@ -50,9 +72,12 @@ const CoordGps = () => {
                 href={`https://maps.google.com/?q=${coords.latitude},${coords.longitude}`}
                 target="_blank"
               >
-                Google Maps
+                Verificar localização no Google Maps
               </a>
             </button>
+            <br/>
+            <button>Enviar anúncio</button>
+
           </div>
         </article>
       </form>

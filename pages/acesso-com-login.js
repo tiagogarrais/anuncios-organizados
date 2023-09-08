@@ -1,6 +1,6 @@
 import { useSession, signIn, signOut } from "next-auth/react";
 import Link from "next/link";
-import CoordGps from "../components/CoordGps";
+import CadAnuncioForm from "../components/CadAnuncioForm";
 
 export default function AcessoComLogin() {
   const { data: session } = useSession();
@@ -9,7 +9,7 @@ export default function AcessoComLogin() {
       <>
         Bem vindo(a) {session.user.email}
         <button onClick={() => signOut()}>Desconectar</button>
-        <CoordGps />
+        <CadAnuncioForm />
         <p>
           <Link href="/">Voltar para a página inicial</Link>
         </p>
