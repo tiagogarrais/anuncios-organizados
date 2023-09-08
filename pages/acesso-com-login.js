@@ -7,7 +7,7 @@ export default function AcessoComLogin() {
   if (session) {
     return (
       <>
-        Bem vindo(a) {session.user.email} <br />
+        Bem vindo(a) {session.user.email}
         <button onClick={() => signOut()}>Desconectar</button>
         <CoordGps />
         <p>
