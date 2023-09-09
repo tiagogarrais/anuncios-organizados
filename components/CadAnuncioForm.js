@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import { useGeolocated } from "react-geolocated";
 
@@ -24,11 +25,11 @@ const CoordGps = () => {
           </label>
           <br />
           <label>
-            <textarea rows={5} placeholder="Descrição" />
+            <input type="number" placeholder="Preço" />
           </label>
           <br />
           <label>
-            <input type="number" placeholder="Preço" />
+            <textarea rows={5} placeholder="Descrição" />
           </label>
           <br />
           <label>
@@ -56,31 +57,11 @@ const CoordGps = () => {
             Terreno para aluguel
           </label>
 
-          <h3>
-            Adicionalmente estamos coletando os seguintes dados sobre este item:
-          </h3>
           <div>
-            <h4>Localização</h4>
-            latitude: {coords.latitude}
-            <br />
-            longitude: {coords.longitude}
-            <br />
-            altitude: {coords.altitude}
-            <br />
-            heading: {coords.heading}
-            <br />
-            velocidade: {coords.speed}
-            <br />
-            <button>
-              <a
-                href={`https://maps.google.com/?q=${coords.latitude},${coords.longitude}`}
-                target="_blank"
-              >
-                Verificar localização no Google Maps
-              </a>
-            </button>
-            <br />
-            <button>Enviar anúncio</button>
+            <div className="button">
+              {" "}
+              <Link href="/">Enviar anúncio</Link>
+            </div>
           </div>
         </article>
       </form>

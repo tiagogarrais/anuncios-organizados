@@ -27,7 +27,7 @@ const CoordGps = () => {
               </label>
               <br />
               <label>
-                <h4>R$ 5.000,00</h4>
+                <h4>R$ 50.000,00</h4>
               </label>
               <br />
               <label>
@@ -38,7 +38,7 @@ const CoordGps = () => {
               </label>
               <br />
               <label>
-                <Image src="/images/casa.png" width="150" height="150" />
+                <Image src="/images/casa.png" width="400" height="400" />
               </label>
               <br />
               Casa para venda
