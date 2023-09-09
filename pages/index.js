@@ -6,9 +6,10 @@ export default function Home() {
   return (
     <>
       <button>
-        <Link href="/acesso-com-login">
-          Clique aqui para acessar os anúncios
-        </Link>
+        <Link href="/acesso-com-login/anuncios">Ver anúncios</Link>
+      </button>
+      <button>
+        <Link href="/acesso-com-login/cadastro">Cadastrar anúncio</Link>
       </button>
     </>
   );
