@@ -1,13 +1,13 @@
 import { useSession, signIn, signOut } from "next-auth/react";
 import Link from "next/link";
-import CadAnuncioForm from "../components/CadAnuncioForm";
+import CadastroForm from "../components/CadastroForm";
 
 export default function AcessoComLogin() {
   const { data: session } = useSession();
   if (session) {
     return (
       <>
-        <CadAnuncioForm />
+        <CadastroForm />
       </>
     );
   }
