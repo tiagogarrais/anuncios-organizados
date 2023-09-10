@@ -23,43 +23,37 @@ const CoordGps = () => {
           <label>
             <input type="text" placeholder="Título" />
           </label>
-          <br />
           <label>
             <input type="number" placeholder="Preço" />
           </label>
-          <br />
           <label>
             <textarea rows={5} placeholder="Descrição" />
           </label>
-          <br />
           <label>
             Foto:
             <input type="file" />
           </label>
-          <br />
-          <label>
-            <input type="checkbox" />
-            Casa para venda
-          </label>
-          <br />
-          <label>
-            <input type="checkbox" />
-            Casa para aluguel
-          </label>
-          <br />
-          <label>
-            <input type="checkbox" />
-            Terreno para venda
-          </label>
-          <br />
-          <label>
-            <input type="checkbox" />
-            Terreno para aluguel
-          </label>
+          <div className="inboxgroup">
+            <label>
+              <input type="checkbox" />
+              Casa para venda
+            </label>
+            <label>
+              <input type="checkbox" />
+              Casa para aluguel
+            </label>
+            <label>
+              <input type="checkbox" />
+              Terreno para venda
+            </label>
+            <label>
+              <input type="checkbox" />
+              Terreno para aluguel
+            </label>
+          </div>
 
           <div>
             <div className="button">
-              {" "}
               <Link href="/">Enviar anúncio</Link>
             </div>
           </div>
