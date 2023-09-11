@@ -8,7 +8,9 @@ export default function Home() {
     return (
       <>
         Bem vindo(a) {session.user.email} -
-        <span onClick={() => signOut()}>Desconectar</span>
+        <a>
+          <span onClick={() => signOut()}> Desconectar</span>
+        </a>
         <div className="button">
           <Link href="/cadastro">Cadastrar anúncio</Link>
         </div>
@@ -19,7 +21,9 @@ export default function Home() {
   return (
     <>
       Você não está conectado <br />
-      <button onClick={() => signIn()}>Entrar</button>
+      <div className="button" onClick={() => signIn()}>
+        Entrar
+      </div>
       <br />
     </>
   );
